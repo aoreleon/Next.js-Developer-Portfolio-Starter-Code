@@ -49,7 +49,7 @@ const NavBar = () => {
           target="_blank"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-8 mr-3"
+          className="w-7 mr-3"
         >
           <LinkedInIcon />
         </motion.a>
@@ -58,7 +58,7 @@ const NavBar = () => {
           target="_blank"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-8 mr-3"
+          className="w-7 mr-3"
         >
           <GithubIcon />
         </motion.a>
