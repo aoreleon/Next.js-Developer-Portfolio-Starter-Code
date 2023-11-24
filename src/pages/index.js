@@ -5,6 +5,8 @@ import profilePic from "../../public/images/developer.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
+import HireMe from "@/components/HireMe";
+import lighBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 
 export default function Home() {
   return (
@@ -53,6 +55,11 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+
+        <HireMe />
+        {/* <div className="absolute right-8 bottom-8 inline-block w-10">
+          <Image src={lighBulb} alt="Antonio Oré" className="w-full h-auto"/>
+        </div> */}
       </main>
     </>
   );
