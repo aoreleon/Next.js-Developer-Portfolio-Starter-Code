@@ -22,7 +22,7 @@ const Footer = () => {
             <span> ————-««</span>
           </Link>
         </div>
-        <Link href="/">Hola</Link>
+        <Link href="/"></Link>
       </Layout>
     </footer>
   );

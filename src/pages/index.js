@@ -6,7 +6,6 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
-import lighBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 
 export default function Home() {
   return (
@@ -31,7 +30,7 @@ export default function Home() {
                 className="!text-6xl !text-left"
               />
               <p className="my-4 text-base font-medium">
-                Como desarrollador full-stack cualificado, me dedico a convertir
+                Como desarrollador front-end y Salesforce Admin & Developer cualificado, me dedico a convertir
                 ideas en aplicaciones web innovadoras. Explore mis últimos
                 proyectos y artículos, que muestran mi experiencia en React.js y
                 desarrollo web.
